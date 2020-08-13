@@ -33,7 +33,7 @@ EOF
                 sh "docker run --rm manifest-holder"
             }
         }
-//        stage ('release') {
+        stage ('release') {
 //            environment {
 //                CREDS = credentials('bryan-docker-hub-token')
 //            }
@@ -44,5 +44,8 @@ EOF
 //                sh "docker push bryandollery/manifest-holder:latest"
 //          }
  //       }
+            steps {
+                sh ""
+            }
     }
 } 

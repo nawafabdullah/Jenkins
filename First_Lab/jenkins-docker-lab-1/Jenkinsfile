@@ -45,7 +45,7 @@ EOF
 //          }
  //       }
             steps {
-                echo ''
+                echo 'Completed!'
             }
     }
 } 
